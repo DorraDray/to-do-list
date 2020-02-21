@@ -1,0 +1,98 @@
+.div-to-do{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end ;
+    padding-right: 85px;
+    height: 300px;
+    width: 850px;
+    background-color: #3892EA;
+    line-height: 20px;
+    
+}
+body{
+    padding-top: 100px;
+    padding-left: 200px;
+}
+.div-to-do h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.div-to-do p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.div-to-do input{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 720px;
+    border-radius: 5px;
+    color:  #3892EA;
+}
+.div-to-do button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3892EA;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 15px;
+    height:48px ;
+    width: 87px;
+}
+.div-lets{
+    padding-top: 80px;
+    padding-left: 300px;
+}
+.div-lets p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: gray;
+
+}
+.div-ul{
+    min-height: 500px;
+}
+.checked {
+   
+    text-decoration: line-through;
+
+  }
+  
+
+  .NotChecked {
+   
+    text-decoration: none;
+  }
+  .undo{
+    margin-left: 20px;
+    margin-bottom: 20px;
+      background-color: gray;
+      height: 40px;
+      width: 100px;
+      
+      
+  }
+  .complete{
+      margin-left: 20px;
+      margin-bottom: 20px;
+      background-color:  gray;
+      height: 40px;
+      width: 100px;
+  }
+  ul{
+      list-style: none;
+  }
+  .delete{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color:  gray;
+    height: 40px;
+    width: 100px;
+  }
+  li{
+      font-size: 20px;
+  }
